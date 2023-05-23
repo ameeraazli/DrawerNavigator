@@ -16,6 +16,7 @@ export default function App() {
       <BottomTab.Navigator screenOptions={{
         headerStyle: {backgroundColor: '#3c0a6b'},
         headerTintColor: 'white',
+        tabBarActiveTintColor: '#3c0a6b',
       }}>
         <BottomTab.Screen
           name="Welcome"
